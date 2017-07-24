@@ -121,6 +121,11 @@ nav a:hover{
   margin-top: 10px;
 }
 
+/*Puts the logo in the center.*/
+#logo {
+  text-align: center;
+}
+
 /*Makes Subtitle contents appear in the middle.*/
 #main_content > div {
   align-self: flex-start;
@@ -138,7 +143,13 @@ p, h1, ul, li, h2, h3 {
   text-align: left;
 }
 
+/*Moves text in blue box over right a tad bit.*/
 h1, p, h2, h2 + ul {
+  margin-left: 10pt;
+}
+
+/*Moves text in yellow boxes over right a tad bit.*/
+h3, h3 + ul {
   margin-left: 10pt;
 }
 
@@ -149,14 +160,15 @@ h1, p, h2, h2 + ul {
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
-  /*background: #ffffdd;*/
   align-items: center;
+  width: 100%;
 }
 
 /*Makes the sidebars have a yellow background.*/
 #sidebar_content > div {
   background-color: #ffffdd;
   margin: 10px;
+  width: 100%;
 }
 
 /*#sidebar_content > div > h3 {
@@ -199,15 +211,11 @@ h1, p, h2, h2 + ul {
         flex-wrap: nowrap;
     }
 
-    /*#main_content {
-      align-items: left;
-    }*/
+/*Keeps the yellow box files centered.*/
+    h3, h3 + ul {
+      margin-left: 0pt;
+    }
 
-
-/*Makes the subtiles move to the left.*/
-    /*#main_content > div {
-      align-items: left;
-    }*/
 
 /*Makes the sidebar content change.*/
     #sidebar_content {
@@ -252,6 +260,11 @@ h1, p, h2, h2 + ul {
     }
 
 
+    /*Puts the logo to the left.*/
+    #logo {
+      text-align: left;
+      margin-left: -2px;
+    }
 
 /*Moves the subtitle and page title into the same row.*/
     #main_content {
