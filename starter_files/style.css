@@ -99,6 +99,7 @@ nav{
     flex-wrap: wrap;
 }
 
+/*Gives the buttons refinement.*/
 nav a {
   text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.45 );
   box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
@@ -120,7 +121,7 @@ nav a:hover{
   margin-top: 10px;
 }
 
-/*Makes amin contents appear in the middle.*/
+/*Makes Subtitle contents appear in the middle.*/
 #main_content > div {
   align-self: center;
 }
@@ -188,6 +189,16 @@ nav a:hover{
         flex-wrap: nowrap;
     }
 
+    #main_content {
+      align-items: left;
+    }
+
+
+/*Makes the subtiles move to the left.*/
+    #main_content > div {
+      align-self: left;
+    }
+
 
     #sidebar_content {
       display: flex;
@@ -223,10 +234,15 @@ nav a:hover{
       width: 60%;
     }
 
+
+
+
+
 /*Controls the contain that controls the header buttons.*/
     #site_container > header > nav {
       width: 70%;
       margin-left: 5%;
+
     }
 
 /*Just a test so I can tell when a change happens.*/
