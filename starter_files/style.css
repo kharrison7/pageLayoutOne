@@ -172,6 +172,18 @@ nav a:hover{
     nav a{
         display: flex;
         flex-basis: 45%;
+
+          display: block;
+        padding: 20px 2%;
+        width: 100%;
+            flex-basis: 20%;
+    }
+
+    nav {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        flex-wrap: nowrap;
     }
 
 
