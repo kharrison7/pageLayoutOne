@@ -146,7 +146,7 @@ nav a:hover{
 /*Makes the sidebars have a yellow background.*/
 #sidebar_content > div {
   background-color: #ffffdd;
-  margin-top: 5px;
+  margin: 10px;
 }
 
 /*#sidebar_content > div > h3 {
