@@ -233,10 +233,17 @@ h3, h3 + ul {
     #site_footer > nav {
       background-color: green;
     }
-
 }
 
 
+/*Alters size of pink buttons in nav.*/
+#main_nav a{
+    display: block;
+    padding: 10px 6%;
+    background: #ffdddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
 
 /*Desktop Changes*/
 /*Desktop Changes*/
@@ -291,3 +298,12 @@ h3, h3 + ul {
       background-color: blue;
     }
 }
+
+/*Decreases the height of the buttons.*/
+/*#main_nav a{
+    display: block;
+    padding: 10px 6%;
+    background: #ffdddd;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}*/
