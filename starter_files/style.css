@@ -1,0 +1,184 @@
+/*
+
+    COLORS
+
+    Pink   : #ffdddd
+    Purple : #ddddff
+    Green  : #ddffdd
+    Blue   : #ddffff
+    Yellow : #ffffdd
+
+    BREAKPOINTS
+
+    600px
+    1100px
+
+*/
+
+
+/*Presets*/
+
+ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+h1, h2, h3{
+    color: #009999;
+}
+
+h2, h3{
+    margin-bottom: 0;
+}
+
+a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+header{
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddddff;
+}
+
+#site_container{
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+#main_nav{
+    text-align: center;
+}
+
+#main_nav a{
+    display: block;
+    padding: 10px 2%;
+    background: #ffdddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#main_nav a:hover{
+    background: #ddddff;
+}
+
+/*End of presets.*/
+/*End of presets.*/
+/*End of presets.*/
+
+
+
+
+
+
+
+/*For Mobile code.*/
+/*For Mobile code.*/
+/*For Mobile code.*/
+body{
+    text-align: center;
+    font-family: "times";
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav a {
+  text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.45 );
+  box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.15 );
+}
+
+nav a:hover{
+    background: red;
+}
+
+
+/*Makes the subtitle appear to the left.*/
+#main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: #ddffff;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/*Makes amin contents appear in the middle.*/
+#main_content > div {
+  align-self: center;
+}
+
+/*Makes the page title appear to the left.*/
+#main_content > div > h1, #main_content > div > p{
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+
+/*Makes the sidebar content a column.*/
+#sidebar_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /*background: #ffffdd;*/
+  align-items: center;
+}
+
+/*Makes the sidebars have a yellow background.*/
+#sidebar_content > div {
+  background-color: #ffffdd;
+  margin-top: 5px;
+}
+
+/*#sidebar_content > div > h3 {
+  align-self: left;
+}*/
+
+/*Makes the footer appear as a bar.*/
+#site_footer > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: orange;
+  padding: 2%;
+}
+
+
+
+/*To make the page layout change with size.*/
+/*Adjusting to tablet and desktop code.*/
+
+@media screen and ( min-width: 600px ){
+    nav a{
+        flex-basis: 45%;
+    }
+}
+
+@media screen and ( min-width: 1100px ){
+    nav{
+        flex-wrap: nowrap;
+    }
+
+    nav a{
+        flex-basis: 20%;
+    }
+}
