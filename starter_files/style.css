@@ -253,11 +253,11 @@ h3, h3 + ul {
       width: 60%;
     }
 
-/*Limits the page title width.*/
+/*Limits the page title width and adjusts position.*/
     p, h1 {
       text-align: left;
-      max-width: 40%;
-      margin-left: 60px;
+      max-width: 90%;
+      margin-left: -35px;
     }
 
 
@@ -280,12 +280,10 @@ h3, h3 + ul {
     }
 
 
-
 /*Controls the container that controls the header buttons.*/
     #site_container > header > nav {
       width: 70%;
       margin-left: 5%;
-
     }
 
 /*Just a test so I can tell when a change happens.*/
