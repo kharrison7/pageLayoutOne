@@ -141,6 +141,7 @@ nav a:hover{
 /*Aligns the text left.*/
 p, h1, ul, li, h2, h3 {
   text-align: left;
+  line-height: 170%;
 }
 
 /*Moves text in blue box over right a tad bit.*/
