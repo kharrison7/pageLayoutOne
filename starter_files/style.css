@@ -156,7 +156,7 @@ nav a:hover{
 #site_footer > nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: orange;
   padding: 2%;
@@ -169,8 +169,17 @@ nav a:hover{
 
 @media screen and ( min-width: 600px ){
     nav a{
+        display: flex;
         flex-basis: 45%;
     }
+
+
+
+/*Just a test so I can tell when a change happens.*/
+    #site_footer > nav {
+      background-color: green;
+    }
+
 }
 
 @media screen and ( min-width: 1100px ){
@@ -180,5 +189,10 @@ nav a:hover{
 
     nav a{
         flex-basis: 20%;
+    }
+
+/*Just a test so I can tell when a change happens.*/
+    #site_footer > nav {
+      background-color: blue;
     }
 }
