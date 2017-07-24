@@ -189,14 +189,20 @@ nav a:hover{
         flex-wrap: nowrap;
     }
 
-    #main_content {
+    /*#main_content {
       align-items: left;
+    }*/
+
+    p, h1 {
+      max-width: 40%;
+      margin-left: 0px;
     }
+
 
 
 /*Makes the subtiles move to the left.*/
     #main_content > div {
-      align-self: left;
+      align-items: center;
     }
 
 /*Makes the sidebar content change.*/
@@ -234,6 +240,7 @@ nav a:hover{
       width: 60%;
     }
 
+/*Moves the subtitle and page title into the same row.*/
     #main_content {
       display: flex;
       flex-direction: row;
@@ -246,7 +253,7 @@ nav a:hover{
 
 
 
-/*Controls the contain that controls the header buttons.*/
+/*Controls the container that controls the header buttons.*/
     #site_container > header > nav {
       width: 70%;
       margin-left: 5%;
